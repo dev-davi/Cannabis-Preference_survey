@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cannabis Preference Survey Form</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="Survey Form">
+      <h1 id="title">Cannabis Preference Survey</h1>
+      <p id="description">
+        <em
+          >Please indicate your cannabis prefereneces by filling out the
+          following form. Your support is much appreciated.
+        </em>
+        &#128522;
+      </p>
+      <form action="#" id="survey-form">
+        <fieldset>
+          <label id="name-label" for="name"
+            >Name:
+            <input type="text" id="name" placeholder="Enter your name" required
+          /></label>
+          <label id="email-label" for="email"
+            >Email:
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+          /></label>
+          <label id="number-label" for="number"
+            >Age:
+            <input
+              type="number"
+              id="number"
+              placeholder="Enter your age"
+              min="19"
+              max="200"
+              required
+          /></label>
+          <label
+            >Which option best describes your relationship with Cannabis?
+            <select id="dropdown">
+              <option disabled="" selected="" value="">Select One</option>
+              <option value="none">I don't consume cannabis</option>
+              <option value="light">I am a light user</option>
+              <option value="regular">I am a regular user</option>
+              <option value="heavy">I am a heavy user</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <p>
+            What is your favorite type of cannabis?
+            <span class="clue">(Check all that apply)</span>
+          </p>
+          <label
+            ><input type="radio" name="favorite-type" value="sativa" />
+            Sativa</label
+          >
+          <label
+            ><input type="radio" name="favorite-type" value="indica" />
+            Indica</label
+          >
+          <label
+            ><input type="radio" name="favorite-type" value="hybrid" />
+            Hybrid</label
+          >
+          <p>Select strains that you love: &#128525;&#128525;</p>
+          <label
+            ><input
+              type="checkbox"
+              name="favorite-strains"
+              value="blue-dream"
+            />
+            Blue Dream</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              name="favorite-strains"
+              value="purple-kush"
+            />
+            Purple Kush</label
+          >
+          <label
+            ><input type="checkbox" name="favorite-strains" value="ss-haze" />
+            SS Haze</label
+          >
+          <label
+            ><input type="checkbox" name="favorite-strains" value="og-kush" />
+            OG Kush</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              name="favorite-strains"
+              value="skywalker-og"
+            />
+            Skywalker OG</label
+          >
+          <label>
+            <input type="checkbox" name="favorite-strains" value="lemon-haze" />
+            Lemon Haze</label
+          >
+          <label>
+            <input
+              type="checkbox"
+              name="favorite-strains"
+              value="grandaddy-purple"
+            />
+            Grandaddy Purple
+          </label>
+          <label>
+            <input
+              type="checkbox"
+              name="favorite-strains"
+              value="wedding-crasher"
+            />
+            Wedding Crasher
+          </label>
+          <label>
+            <input type="checkbox" name="favorite-strains" value="mango-haze" />
+            Mango Haze
+          </label>
+          <label for="textarea"
+            >Any comments or suggestions?
+            <textarea
+              id="comments"
+              placeholder="Enter your comments here"
+              rows="6"
+              cols="55"
+            ></textarea>
+          </label>
+        </fieldset>
+        <input id="submit" type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

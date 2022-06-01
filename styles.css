@@ -1,0 +1,61 @@
+h1 {
+  text-align: center;
+  font-family: Didot;
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: white 5px double;
+  padding-bottom: 5px;
+  color: white;
+}
+
+body {
+  background-image: url(/images/weed.jpg);
+}
+
+#description {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0 0 14px 0;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  background-color: azure;
+  padding: 10px;
+  border-radius: 3%;
+  opacity: 0.85;
+}
+
+label {
+  display: block;
+  font-family: "Nova Round", cursive;
+  align-content: center;
+}
+
+textarea {
+  display: block;
+}
+
+#submit {
+  align-content: center;
+  padding: o auto o auto;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+#name-label {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+textarea {
+  margin-bottom: 10px;
+}
