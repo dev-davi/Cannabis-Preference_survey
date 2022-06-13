@@ -27,23 +27,26 @@ form {
   margin: 0 auto;
   background-color: azure;
   padding: 10px;
-  border-radius: 3%;
+  border-radius: 1%;
   opacity: 0.85;
 }
 
 label {
   display: block;
-  font-family: "Nova Round", cursive;
-  align-content: center;
+  font-family: Didot;
 }
 
 textarea {
   display: block;
+  margin: auto;
+  width: 90%;
 }
 
 #submit {
-  align-content: center;
-  padding: o auto o auto;
+  padding: 0 auto 0 auto;
+  margin: 0 5% 0 5%;
+  width: 90%;
+  height: 30px;
 }
 
 fieldset {
@@ -51,11 +54,18 @@ fieldset {
   padding: 0;
 }
 
-#name-label {
-  padding-left: auto;
-  padding-right: auto;
+#name-label,
+#email-label,
+#number-label {
+  margin: 0 0 5px 0;
 }
 
-textarea {
+.textarea-label {
   margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.clue {
+  font-weight: bold;
 }

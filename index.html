@@ -54,7 +54,7 @@
         <fieldset>
           <p>
             What is your favorite type of cannabis?
-            <span class="clue">(Check all that apply)</span>
+            <span class="clue">(Select One)</span>
           </p>
           <label
             ><input type="radio" name="favorite-type" value="sativa" />
@@ -68,7 +68,10 @@
             ><input type="radio" name="favorite-type" value="hybrid" />
             Hybrid</label
           >
-          <p>Select strains that you love: &#128525;&#128525;</p>
+          <p>
+            Select strains that you love: &#128525;&#128525;
+            <span class="clue">(Check all that apply)</span>
+          </p>
           <label
             ><input
               type="checkbox"
@@ -125,7 +128,7 @@
             <input type="checkbox" name="favorite-strains" value="mango-haze" />
             Mango Haze
           </label>
-          <label for="textarea"
+          <label for="textarea" class="textarea-label"
             >Any comments or suggestions?
             <textarea
               id="comments"
